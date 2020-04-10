@@ -18,7 +18,7 @@ defined('_JEXEC') or die;
  * 			Not used in this one yet (for future use).
  *
  */
-	$list = ModIpheionMapsHelper::getItems($params);
+	$list = ModIpheionShipsHelper::getItems($params);
  	
 /**
  * Get layout values from back-end setting tab advanced in $params 
@@ -34,6 +34,6 @@ defined('_JEXEC') or die;
  * Output depends if the layout has not been overridden or not. 
  * 
  */
-	require JModuleHelper::getLayoutpath('mod_ipheionmaps', $layout);
+	require JModuleHelper::getLayoutpath('mod_ipheionships', $layout);
 	
 ?>

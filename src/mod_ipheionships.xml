@@ -8,29 +8,29 @@
 	client="site"
 	method="upgrade">
 
-    <name>mod_ipheionmaps</name>
+    <name>mod_ipheionships</name>
 
     <!-- The following metadata elements are optional and free of formatting constraints -->
     <author>Pierre Veelen</author>
     <authorEmail>pierre@pvln.nl</authorEmail>
-    <authorUrl>http://www.pvln.nl/ipheionmaps</authorUrl>
+    <authorUrl>http://www.pvln.nl/ipheionships</authorUrl>
     <creationDate>24 March 2020</creationDate>
     <copyright>Copyright (C) 2020 by Pierre Veelen. All rights reserved.</copyright>
     <license>GNU General Public License version 2</license>
 
     <!--  The version string for this extension; is recorded in the #__extensions table -->
-    <version>0.0.1.1</version>
+    <version>0.0.1.0</version>
 
     <!-- The description is optional and defaults to the name; translatable field -->
-    <description>MOD_IPHEIONMAPS_XML_DESCRIPTION</description>
+    <description>MOD_IPHEIONSHIPS_XML_DESCRIPTION</description>
 
 	<!-- the internal name of the component. If omitted, name will be cleaned and used -->
-	<element>ipheionmaps</element>
+	<element>ipheionships</element>
 	
     <!-- files and folders used by this module -->
     <files>
-        <filename module="mod_ipheionmaps">mod_ipheionmaps.php</filename>
-        <filename>mod_ipheionmaps.xml</filename>
+        <filename module="mod_ipheionships">mod_ipheionships.php</filename>
+        <filename>mod_ipheionships.xml</filename>
         <filename>helper.php</filename>
         <filename>index.html</filename>
         <folder>tmpl</folder>
@@ -38,8 +38,8 @@
     </files>
 	
 	<!-- files and folders used by this module -->
-	<!-- in folder .\media are put in .\media\mod_ipheionmaps\ on the webserver-->
-	<media folder="media" destination="mod_ipheionmaps">
+	<!-- in folder .\media are put in .\media\mod_ipheionships\ on the webserver-->
+	<media folder="media" destination="mod_ipheionships">
 		<folder>js</folder>
 	</media>	
 	
@@ -50,41 +50,41 @@
             <field name="moduleclass_sfx"
                 type="text"
                 label="Module Class Suffix"
-                description="MOD_IPHEIONMAPS_CLASS_SUFFIX"
+                description="MOD_IPHEIONSHIPS_CLASS_SUFFIX"
             />
             <field name="pretext" 
                 type="textarea"
                 label="Pre Text"
-                description="MOD_IPHEIONMAPS_PRETEXT"
+                description="MOD_IPHEIONSHIPS_PRETEXT"
                 cols="30"
                 rows="5"
             />
             <field name="posttext"
                 type="textarea"
                 label="Post Text"
-                description="MOD_IPHEIONMAPS_POSTTEXT"
+                description="MOD_IPHEIONSHIPS_POSTTEXT"
                 cols="30"
                 rows="5"
             />
             <field name="mapbox_accesstoken"
                 type="text"
                 label="Mapbox Accesstoken"
-                description="MOD_IPHEIONMAPS_MAPBOX_ACCESSTOKEN">
+                description="MOD_IPHEIONSHIPS_MAPBOX_ACCESSTOKEN">
             </field>
             <field name="polygon_data_url"
                 type="text"
                 label="Polygon Data Url"
-                description="MOD_IPHEIONMAPS_POLYGON_DATA_URL">
+                description="MOD_IPHEIONSHIPS_POLYGON_DATA_URL">
             </field>
             <field name="window_latitude"
                 type="text"
                 label="Window Latitude"
-                description="MOD_IPHEIONMAPS_WINDOW_LATITUDE">
+                description="MOD_IPHEIONSHIPS_WINDOW_LATITUDE">
             </field>
             <field name="window_longitude"
                 type="text"
                 label="Window Longitude"
-                description="MOD_IPHEIONMAPS_WINDOW_LONGITUDE">
+                description="MOD_IPHEIONSHIPS_WINDOW_LONGITUDE">
             </field>
         </fieldset>
     </fields>
@@ -96,7 +96,7 @@
             type="extension"
             priority="1"
             name="Updates for Ipheion Graphs module">
-            http://update.pvln.nl/joomla/modules/ipheionmaps/mod_ipheionmaps.xml
+            http://update.pvln.nl/joomla/modules/ipheionships/mod_ipheionships.xml
         </server>
 
     </updateservers>

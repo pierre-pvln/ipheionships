@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package     mod_ipheionmaps
+ * @package     mod_ipheionships
  * @author      Pierre Veelen, www.pvln.nl
  * @copyright   Copyright (C) 2020 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
@@ -9,13 +9,13 @@
 defined('_JEXEC') or die;
 
 /**
- * Helper for mod_ipheionmaps
+ * Helper for mod_ipheionships
  */
 
-abstract class ModIpheionMapsHelper
+abstract class ModIpheionShipsHelper
 {
     /**
-     * The class ModIpheionMapsHelper gets a list of all installed extensions of this Joomla! website
+     * The class ModIpheionShipsHelper gets a list of all installed extensions of this Joomla! website
      *
      **/
 	 
