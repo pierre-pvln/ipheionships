@@ -71,10 +71,10 @@
                 label="Mapbox Accesstoken"
                 description="MOD_IPHEIONSHIPS_MAPBOX_ACCESSTOKEN">
             </field>
-            <field name="polygon_data_url"
+            <field name="ships_data_url"
                 type="text"
-                label="Polygon Data Url"
-                description="MOD_IPHEIONSHIPS_POLYGON_DATA_URL">
+                label="Ships Data Url"
+                description="MOD_IPHEIONSHIPS_DATA_DATA_URL">
             </field>
             <field name="window_latitude"
                 type="text"

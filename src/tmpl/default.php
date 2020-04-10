@@ -30,7 +30,7 @@ $document->addStyleSheet('https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.c
 		map_container_name = 'map-polygon';
 		map_center_longitude = <?php echo $params->get("window_longitude") ?>;
 		map_center_latitude = <?php echo $params->get("window_latitude") ?>;
-		polygon_data_url = <?php echo "'".$params->get("polygon_data_url")."'" ?>;
+		ships_data_url = <?php echo "'".$params->get("ships_data_url")."'" ?>;
 		</script>
 		
 		<!-- load the map -->
