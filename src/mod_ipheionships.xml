@@ -101,7 +101,7 @@
         <server
             type="extension"
             priority="1"
-            name="Updates for Ipheion Graphs module">
+            name="Updates for Ipheion Ships Visualization module">
             http://update.pvln.nl/joomla/modules/ipheionships/mod_ipheionships.xml
         </server>
 
