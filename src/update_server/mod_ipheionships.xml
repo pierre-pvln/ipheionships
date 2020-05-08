@@ -10,7 +10,7 @@
 		<type>module</type>
 		<client>0</client>
 		<version>0.0.1.1</version>
-		<infourl title="List Installed Extensions">http://www.pvln.nl/ipheionships</infourl>
+		<infourl title="Show ships locations on a map">http://www.pvln.nl/ipheionships</infourl>
 		<downloads>
 			<downloadurl type="upgrade" format="zip">http://download.pvln.nl/joomla/modules/ipheionships/mod_ipheionships_v0.0.1.1.zip</downloadurl>
 		</downloads>
