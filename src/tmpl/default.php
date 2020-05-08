@@ -22,19 +22,20 @@ $document->addStyleSheet('https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.c
 	<!-- Get the text to be displayed before the module-->
 	<div> <?php echo $params->get("pretext");?> </div>
 
-	<div id='map-polygon' style='width: 100%; height: 600px;'></div>
+	<div id='ships-location' style='width: 100%; height: 600px;'></div>
 	
 	    <!-- set required js vars -->
 	    <script>
 		mapboxgl.accessToken = <?php echo '"'.$params->get("mapbox_accesstoken").'"' ?>;
-		map_container_name = 'map-polygon';
-		map_center_longitude = <?php echo $params->get("window_longitude") ?>;
-		map_center_latitude = <?php echo $params->get("window_latitude") ?>;
+		ships_container_name = 'ships-location';
+		ships_center_longitude = <?php echo $params->get("window_longitude") ?>;
+		ships_center_latitude = <?php echo $params->get("window_latitude") ?>;
+		ships_zoom_level = <?php echo $params->get("window_zoom") ?>;
 		ships_data_url = <?php echo "'".$params->get("ships_data_url")."'" ?>;
 		</script>
 		
 		<!-- load the map -->
-		<script src="./media/mod_ipheionships/js/maps.js"></script>
+		<script src="./media/mod_ipheionships/js/ships.js"></script>
 	
 	<!-- Get the text to be displayed after the module-->	
 	<div><?php echo $params->get("posttext");?></div>
